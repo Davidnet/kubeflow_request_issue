@@ -17,3 +17,5 @@ if __name__ == "__main__":
 
     print(kfp.__version__)
     kfp.compiler.Compiler().compile(pipeline, "pipeline.yaml")
+
+# %%
