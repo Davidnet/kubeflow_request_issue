@@ -1,0 +1,1055 @@
+[
+    {
+      "textPayload": "Waiting for job to be provisioned.",
+      "insertId": "8208bsd5mw6",
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "task_name": "service",
+          "job_id": "1750786862085046272"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:09.862951166Z",
+      "severity": "INFO",
+      "labels": {
+        "ml.googleapis.com/job_state": "QUEUED",
+        "ml.googleapis.com/endpoint": ""
+      },
+      "logName": "projects/REDACTED/logs/ml.googleapis.com%2F1750786862085046272",
+      "receiveTimestamp": "2023-05-04T17:19:10.388636857Z"
+    },
+    {
+      "textPayload": "Waiting for training program to start.",
+      "insertId": "8208bsd5mw8",
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "job_id": "1750786862085046272",
+          "task_name": "service",
+          "project_id": "REDACTED"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:10.107713985Z",
+      "severity": "INFO",
+      "labels": {
+        "ml.googleapis.com/endpoint": ""
+      },
+      "logName": "projects/REDACTED/logs/ml.googleapis.com%2F1750786862085046272",
+      "receiveTimestamp": "2023-05-04T17:19:10.388636857Z"
+    },
+    {
+      "textPayload": "Job is preparing.",
+      "insertId": "8208bsd5mwk",
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "task_name": "service",
+          "project_id": "REDACTED",
+          "job_id": "1750786862085046272"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:11.562452292Z",
+      "severity": "INFO",
+      "labels": {
+        "ml.googleapis.com/endpoint": "",
+        "ml.googleapis.com/job_state": "PREPARING"
+      },
+      "logName": "projects/REDACTED/logs/ml.googleapis.com%2F1750786862085046272",
+      "receiveTimestamp": "2023-05-04T17:19:12.390650973Z"
+    },
+    {
+      "insertId": "k9qvoofkaqo0f",
+      "jsonPayload": {
+        "message": "Opening GCS connection...\n",
+        "name": "root",
+        "levelname": "NOTICE"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "task_name": "workerpool0-0.gcsfuse",
+          "job_id": "1750786862085046272",
+          "project_id": "REDACTED"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:12.217072345Z",
+      "severity": "NOTICE",
+      "labels": {
+        "ml.googleapis.com/trial_type": "",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "ml.googleapis.com/job_id/log_area": "gcsfuse",
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "compute.googleapis.com/resource_id": "4920414739021850553"
+      },
+      "logName": "projects/REDACTED/logs/gcsfuse.logs.userproject",
+      "receiveTimestamp": "2023-05-04T17:19:57.520075334Z"
+    },
+    {
+      "insertId": "k9qvoofkaqo0g",
+      "jsonPayload": {
+        "name": "root",
+        "message": "Mounting file system \"gcsfuse\"...\n",
+        "levelname": "NOTICE"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "task_name": "workerpool0-0.gcsfuse",
+          "job_id": "1750786862085046272",
+          "project_id": "REDACTED"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:12.217353170Z",
+      "severity": "NOTICE",
+      "labels": {
+        "ml.googleapis.com/tpu_worker_id": "",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "ml.googleapis.com/job_id/log_area": "gcsfuse",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "ml.googleapis.com/trial_type": "",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "ml.googleapis.com/trial_id": ""
+      },
+      "logName": "projects/REDACTED/logs/gcsfuse.logs.userproject",
+      "receiveTimestamp": "2023-05-04T17:19:57.520075334Z"
+    },
+    {
+      "insertId": "k9qvoofkaqo0h",
+      "jsonPayload": {
+        "levelname": "NOTICE",
+        "message": "File system has been successfully mounted.\n",
+        "name": "root"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "task_name": "workerpool0-0.gcsfuse",
+          "project_id": "REDACTED",
+          "job_id": "1750786862085046272"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:12.218274896Z",
+      "severity": "NOTICE",
+      "labels": {
+        "ml.googleapis.com/trial_type": "",
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/job_id/log_area": "gcsfuse",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm"
+      },
+      "logName": "projects/REDACTED/logs/gcsfuse.logs.userproject",
+      "receiveTimestamp": "2023-05-04T17:19:57.520075334Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeori",
+      "jsonPayload": {
+        "message": "WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', OSError(107, 'Transport endpoint is not connected'))': /simple/kfp/",
+        "levelname": "ERROR"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "task_name": "workerpool0-0",
+          "project_id": "REDACTED",
+          "job_id": "1750786862085046272"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:39.369889991Z",
+      "severity": "ERROR",
+      "labels": {
+        "ml.googleapis.com/trial_type": "",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "ml.googleapis.com/trial_id": "",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm"
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "textPayload": "Job is running.",
+      "insertId": "8208bsd5n1e",
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "job_id": "1750786862085046272",
+          "project_id": "REDACTED",
+          "task_name": "service"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:49.632238295Z",
+      "severity": "INFO",
+      "labels": {
+        "ml.googleapis.com/endpoint": "",
+        "ml.googleapis.com/job_state": "RUNNING"
+      },
+      "logName": "projects/REDACTED/logs/ml.googleapis.com%2F1750786862085046272",
+      "receiveTimestamp": "2023-05-04T17:19:50.406407626Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeorj",
+      "jsonPayload": {
+        "levelname": "ERROR",
+        "message": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "job_id": "1750786862085046272",
+          "task_name": "workerpool0-0"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:50.987113382Z",
+      "severity": "ERROR",
+      "labels": {
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "ml.googleapis.com/trial_type": ""
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeork",
+      "jsonPayload": {
+        "levelname": "ERROR",
+        "message": "Traceback (most recent call last):"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "task_name": "workerpool0-0",
+          "project_id": "REDACTED",
+          "job_id": "1750786862085046272"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594163694Z",
+      "severity": "ERROR",
+      "labels": {
+        "compute.googleapis.com/zone": "us-central1-a",
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "ml.googleapis.com/trial_type": ""
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeorl",
+      "jsonPayload": {
+        "levelname": "ERROR",
+        "message": "  File \"/usr/local/lib/python3.7/site-packages/requests_toolbelt/_compat.py\", line 48, in <module>"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "job_id": "1750786862085046272",
+          "task_name": "workerpool0-0"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594211282Z",
+      "severity": "ERROR",
+      "labels": {
+        "compute.googleapis.com/zone": "us-central1-a",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "ml.googleapis.com/trial_type": ""
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeorm",
+      "jsonPayload": {
+        "levelname": "ERROR",
+        "message": "    from requests.packages.urllib3.contrib import appengine as gaecontrib"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "task_name": "workerpool0-0",
+          "job_id": "1750786862085046272",
+          "project_id": "REDACTED"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594218184Z",
+      "severity": "ERROR",
+      "labels": {
+        "compute.googleapis.com/zone": "us-central1-a",
+        "ml.googleapis.com/trial_type": "",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "compute.googleapis.com/resource_id": "4920414739021850553"
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeorn",
+      "jsonPayload": {
+        "levelname": "ERROR",
+        "message": "ImportError: cannot import name 'appengine' from 'requests.packages.urllib3.contrib' (/usr/local/lib/python3.7/site-packages/urllib3/contrib/__init__.py)"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "job_id": "1750786862085046272",
+          "task_name": "workerpool0-0"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594222947Z",
+      "severity": "ERROR",
+      "labels": {
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "ml.googleapis.com/trial_id": "",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "ml.googleapis.com/trial_type": "",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "compute.googleapis.com/resource_id": "4920414739021850553"
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeoro",
+      "jsonPayload": {
+        "message": "",
+        "levelname": "ERROR"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "task_name": "workerpool0-0",
+          "job_id": "1750786862085046272"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594226647Z",
+      "severity": "ERROR",
+      "labels": {
+        "ml.googleapis.com/tpu_worker_id": "",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "ml.googleapis.com/trial_type": "",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm"
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeorp",
+      "jsonPayload": {
+        "levelname": "ERROR",
+        "message": "During handling of the above exception, another exception occurred:"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "task_name": "workerpool0-0",
+          "job_id": "1750786862085046272",
+          "project_id": "REDACTED"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594230549Z",
+      "severity": "ERROR",
+      "labels": {
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/trial_type": "",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "ml.googleapis.com/job_id/log_area": "root"
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeorq",
+      "jsonPayload": {
+        "levelname": "ERROR",
+        "message": ""
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "job_id": "1750786862085046272",
+          "project_id": "REDACTED",
+          "task_name": "workerpool0-0"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594234038Z",
+      "severity": "ERROR",
+      "labels": {
+        "compute.googleapis.com/zone": "us-central1-a",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/trial_type": ""
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeorr",
+      "jsonPayload": {
+        "levelname": "ERROR",
+        "message": "Traceback (most recent call last):"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "task_name": "workerpool0-0",
+          "job_id": "1750786862085046272"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594240028Z",
+      "severity": "ERROR",
+      "labels": {
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "ml.googleapis.com/trial_type": "",
+        "compute.googleapis.com/resource_id": "4920414739021850553"
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeors",
+      "jsonPayload": {
+        "levelname": "ERROR",
+        "message": "  File \"/usr/local/lib/python3.7/runpy.py\", line 183, in _run_module_as_main"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "task_name": "workerpool0-0",
+          "job_id": "1750786862085046272"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594245227Z",
+      "severity": "ERROR",
+      "labels": {
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "ml.googleapis.com/trial_type": "",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "compute.googleapis.com/zone": "us-central1-a"
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeort",
+      "jsonPayload": {
+        "message": "    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)",
+        "levelname": "ERROR"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "job_id": "1750786862085046272",
+          "task_name": "workerpool0-0"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594249279Z",
+      "severity": "ERROR",
+      "labels": {
+        "compute.googleapis.com/zone": "us-central1-a",
+        "ml.googleapis.com/trial_type": "",
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "ml.googleapis.com/tpu_worker_id": ""
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeoru",
+      "jsonPayload": {
+        "message": "  File \"/usr/local/lib/python3.7/runpy.py\", line 109, in _get_module_details",
+        "levelname": "ERROR"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "job_id": "1750786862085046272",
+          "task_name": "workerpool0-0"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594253032Z",
+      "severity": "ERROR",
+      "labels": {
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "ml.googleapis.com/trial_id": "",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "ml.googleapis.com/trial_type": ""
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeorv",
+      "jsonPayload": {
+        "levelname": "ERROR",
+        "message": "    __import__(pkg_name)"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "job_id": "1750786862085046272",
+          "project_id": "REDACTED",
+          "task_name": "workerpool0-0"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594257278Z",
+      "severity": "ERROR",
+      "labels": {
+        "ml.googleapis.com/tpu_worker_id": "",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "ml.googleapis.com/trial_type": "",
+        "ml.googleapis.com/trial_id": "",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "compute.googleapis.com/resource_id": "4920414739021850553"
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeorw",
+      "jsonPayload": {
+        "message": "  File \"/usr/local/lib/python3.7/site-packages/kfp/__init__.py\", line 24, in <module>",
+        "levelname": "ERROR"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "job_id": "1750786862085046272",
+          "task_name": "workerpool0-0",
+          "project_id": "REDACTED"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594261419Z",
+      "severity": "ERROR",
+      "labels": {
+        "compute.googleapis.com/zone": "us-central1-a",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "ml.googleapis.com/trial_id": "",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "ml.googleapis.com/trial_type": "",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "ml.googleapis.com/job_id/log_area": "root"
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeorx",
+      "jsonPayload": {
+        "levelname": "ERROR",
+        "message": "    from kfp.client import Client"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "task_name": "workerpool0-0",
+          "job_id": "1750786862085046272"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594265087Z",
+      "severity": "ERROR",
+      "labels": {
+        "ml.googleapis.com/trial_id": "",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "ml.googleapis.com/trial_type": ""
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeory",
+      "jsonPayload": {
+        "message": "  File \"/usr/local/lib/python3.7/site-packages/kfp/client/__init__.py\", line 20, in <module>",
+        "levelname": "ERROR"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "task_name": "workerpool0-0",
+          "job_id": "1750786862085046272"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594268687Z",
+      "severity": "ERROR",
+      "labels": {
+        "ml.googleapis.com/tpu_worker_id": "",
+        "ml.googleapis.com/trial_id": "",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "ml.googleapis.com/trial_type": "",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm"
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeorz",
+      "jsonPayload": {
+        "levelname": "ERROR",
+        "message": "    from kfp.client.client import Client"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "task_name": "workerpool0-0",
+          "project_id": "REDACTED",
+          "job_id": "1750786862085046272"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594274834Z",
+      "severity": "ERROR",
+      "labels": {
+        "ml.googleapis.com/trial_id": "",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "ml.googleapis.com/trial_type": "",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "ml.googleapis.com/tpu_worker_id": ""
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeos0",
+      "jsonPayload": {
+        "levelname": "ERROR",
+        "message": "  File \"/usr/local/lib/python3.7/site-packages/kfp/client/client.py\", line 33, in <module>"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "task_name": "workerpool0-0",
+          "job_id": "1750786862085046272"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594280328Z",
+      "severity": "ERROR",
+      "labels": {
+        "ml.googleapis.com/tpu_worker_id": "",
+        "ml.googleapis.com/trial_id": "",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "ml.googleapis.com/trial_type": ""
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeos1",
+      "jsonPayload": {
+        "message": "    from kfp.client import auth",
+        "levelname": "ERROR"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "task_name": "workerpool0-0",
+          "job_id": "1750786862085046272"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594284386Z",
+      "severity": "ERROR",
+      "labels": {
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "ml.googleapis.com/trial_type": "",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "compute.googleapis.com/zone": "us-central1-a"
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeos2",
+      "jsonPayload": {
+        "message": "  File \"/usr/local/lib/python3.7/site-packages/kfp/client/auth.py\", line 34, in <module>",
+        "levelname": "ERROR"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "job_id": "1750786862085046272",
+          "task_name": "workerpool0-0"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594288218Z",
+      "severity": "ERROR",
+      "labels": {
+        "compute.googleapis.com/zone": "us-central1-a",
+        "ml.googleapis.com/trial_type": "",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/tpu_worker_id": ""
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeos3",
+      "jsonPayload": {
+        "message": "    import requests_toolbelt.adapters.appengine",
+        "levelname": "ERROR"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "job_id": "1750786862085046272",
+          "task_name": "workerpool0-0"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594292874Z",
+      "severity": "ERROR",
+      "labels": {
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "ml.googleapis.com/trial_type": "",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "compute.googleapis.com/zone": "us-central1-a"
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeos4",
+      "jsonPayload": {
+        "levelname": "ERROR",
+        "message": "  File \"/usr/local/lib/python3.7/site-packages/requests_toolbelt/__init__.py\", line 12, in <module>"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "task_name": "workerpool0-0",
+          "job_id": "1750786862085046272"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594296875Z",
+      "severity": "ERROR",
+      "labels": {
+        "compute.googleapis.com/zone": "us-central1-a",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "ml.googleapis.com/trial_type": "",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm"
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeos5",
+      "jsonPayload": {
+        "levelname": "ERROR",
+        "message": "    from .adapters import SSLAdapter, SourceAddressAdapter"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "task_name": "workerpool0-0",
+          "job_id": "1750786862085046272"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594301110Z",
+      "severity": "ERROR",
+      "labels": {
+        "ml.googleapis.com/tpu_worker_id": "",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/trial_type": "",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "compute.googleapis.com/resource_id": "4920414739021850553"
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeos6",
+      "jsonPayload": {
+        "levelname": "ERROR",
+        "message": "  File \"/usr/local/lib/python3.7/site-packages/requests_toolbelt/adapters/__init__.py\", line 12, in <module>"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "task_name": "workerpool0-0",
+          "job_id": "1750786862085046272",
+          "project_id": "REDACTED"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594305017Z",
+      "severity": "ERROR",
+      "labels": {
+        "compute.googleapis.com/zone": "us-central1-a",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "ml.googleapis.com/trial_type": ""
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeos7",
+      "jsonPayload": {
+        "levelname": "ERROR",
+        "message": "    from .ssl import SSLAdapter"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "task_name": "workerpool0-0",
+          "job_id": "1750786862085046272"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594311099Z",
+      "severity": "ERROR",
+      "labels": {
+        "ml.googleapis.com/job_id/log_area": "root",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "ml.googleapis.com/trial_type": "",
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm"
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeos8",
+      "jsonPayload": {
+        "message": "  File \"/usr/local/lib/python3.7/site-packages/requests_toolbelt/adapters/ssl.py\", line 16, in <module>",
+        "levelname": "ERROR"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "job_id": "1750786862085046272",
+          "task_name": "workerpool0-0"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594316623Z",
+      "severity": "ERROR",
+      "labels": {
+        "ml.googleapis.com/trial_id": "",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "ml.googleapis.com/trial_type": "",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm"
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeos9",
+      "jsonPayload": {
+        "message": "    from .._compat import poolmanager",
+        "levelname": "ERROR"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "task_name": "workerpool0-0",
+          "job_id": "1750786862085046272",
+          "project_id": "REDACTED"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594321033Z",
+      "severity": "ERROR",
+      "labels": {
+        "ml.googleapis.com/job_id/log_area": "root",
+        "ml.googleapis.com/trial_id": "",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "ml.googleapis.com/trial_type": "",
+        "ml.googleapis.com/tpu_worker_id": ""
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeosa",
+      "jsonPayload": {
+        "message": "  File \"/usr/local/lib/python3.7/site-packages/requests_toolbelt/_compat.py\", line 50, in <module>",
+        "levelname": "ERROR"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "task_name": "workerpool0-0",
+          "job_id": "1750786862085046272",
+          "project_id": "REDACTED"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594324890Z",
+      "severity": "ERROR",
+      "labels": {
+        "compute.googleapis.com/zone": "us-central1-a",
+        "ml.googleapis.com/trial_type": "",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "ml.googleapis.com/trial_id": "",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "ml.googleapis.com/job_id/log_area": "root"
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeosb",
+      "jsonPayload": {
+        "levelname": "ERROR",
+        "message": "    from urllib3.contrib import appengine as gaecontrib"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "project_id": "REDACTED",
+          "job_id": "1750786862085046272",
+          "task_name": "workerpool0-0"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594328532Z",
+      "severity": "ERROR",
+      "labels": {
+        "ml.googleapis.com/trial_type": "",
+        "ml.googleapis.com/job_id/log_area": "root",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "ml.googleapis.com/trial_id": "",
+        "compute.googleapis.com/resource_id": "4920414739021850553"
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "insertId": "1yh6gg1fjjeosc",
+      "jsonPayload": {
+        "message": "ImportError: cannot import name 'appengine' from 'urllib3.contrib' (/usr/local/lib/python3.7/site-packages/urllib3/contrib/__init__.py)",
+        "levelname": "ERROR"
+      },
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "task_name": "workerpool0-0",
+          "job_id": "1750786862085046272",
+          "project_id": "REDACTED"
+        }
+      },
+      "timestamp": "2023-05-04T17:19:51.594332761Z",
+      "severity": "ERROR",
+      "labels": {
+        "compute.googleapis.com/resource_name": "gke-cml-0504-161111--e2-standard-4-43-d4fd8e3b-g3rm",
+        "compute.googleapis.com/resource_id": "4920414739021850553",
+        "ml.googleapis.com/trial_type": "",
+        "compute.googleapis.com/zone": "us-central1-a",
+        "ml.googleapis.com/trial_id": "",
+        "ml.googleapis.com/tpu_worker_id": "",
+        "ml.googleapis.com/job_id/log_area": "root"
+      },
+      "logName": "projects/REDACTED/logs/workerpool0-0",
+      "receiveTimestamp": "2023-05-04T17:19:57.530993818Z"
+    },
+    {
+      "textPayload": "The replica workerpool0-0 exited with a non-zero status of 1. Termination reason: Error. To find out more about why your job exited please check the logs: https://console.cloud.google.com/logs/viewer?project=106186950882&resource=ml_job%2Fjob_id%2F1750786862085046272&advancedFilter=resource.type%3D%22ml_job%22%0Aresource.labels.job_id%3D%221750786862085046272%22",
+      "insertId": "8208bsd5n4l",
+      "resource": {
+        "type": "ml_job",
+        "labels": {
+          "task_name": "service",
+          "job_id": "1750786862085046272",
+          "project_id": "REDACTED"
+        }
+      },
+      "timestamp": "2023-05-04T17:20:19.893702998Z",
+      "severity": "ERROR",
+      "labels": {
+        "ml.googleapis.com/endpoint": ""
+      },
+      "logName": "projects/REDACTED/logs/ml.googleapis.com%2F1750786862085046272",
+      "receiveTimestamp": "2023-05-04T17:20:20.423879580Z"
+    }
+  ]
